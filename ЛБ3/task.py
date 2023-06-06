@@ -6,8 +6,6 @@ import random
 fig, ax = plt.subplots()
 line, = ax.plot([])
 
-W = [1, 2, 3, 4, 5]
-
 def f():
     N = 4002
     W = [[-1, 1][random.randrange(2)] for i in range(N)]
